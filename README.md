@@ -1,12 +1,18 @@
 # stiaFinalProject
 
-## Purpose
+## Project Overview
 
 The purpose of this project was to use specific 2023 Spring course offerings from Georgetown University to train various machine learning models to correctly predict the parts of the world that regionally focused classes are discussing, given only their course description.
 
-## Intention
+The goal is to study how the model prejudices certain words or phrases as indicators of where in the world a course focuses on.
 
-Can machine learning intentionally look for bias? It has been known to exacerbate tendencies found in data. If machine learning can be trained to look for bias, then it can indicate the presence or absence of good, quality data instead of exclusively playing into stereotypes. In short, can machine learning improve data?
+## BLUR: Bottom Line Up Front
+
+* The larger the dataset, the worse the performance. That's good because it means the model can't find strong correlations between words and places
+
+* If a couse description included 'violence' or 'coloni,' it would likely be classified as a class on Africa
+
+* Majority class bias indicated that the majority of Georgetown classes studied the MENA region
 
 ## Problems and Solutions
 
@@ -36,8 +42,15 @@ Using machine learning for experiments requires three steps: collecting and crea
 
 **Takeaway:** Each algorithm has its own bias. Using various algorithms together provide better insights on the data
 
+## Results -- Technical Details
 
-## Results 
+Model accuracy over time:
+
+![Churn Rate by Driving Day](./Images/Accuracy1.png)  ![Churn Rate by Total KM Driven](./Images/Accuracy2.png) 
+
+
+
+## Results -- Project Conclusions
 
 This experiment has demonstrated three main takeaways. 
 
