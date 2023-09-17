@@ -46,7 +46,17 @@ Using machine learning for experiments requires three steps: collecting and crea
 
 Model accuracy over time:
 
-![Churn Rate by Driving Day](./Images/Accuracy1.png)  ![Churn Rate by Total KM Driven](./Images/Accuracy2.png) 
+Iteration 1: Original dataset of 56 classes without NLP
+![Model Accuracy Iteration 1](./Images/Accuracy1.png)  
+
+Iteration 2: Original dataset of 56 values with NLP
+![Churn Rate by Total KM Driven](./Images/Accuracy2.png)
+
+Iteration 3: Updated dataset of 103 values with NLP
+![Churn Rate by Total KM Driven](./Images/Accuracy3.png)
+
+Iteration 4: Updated dataset of 103 values after removing all "region identifying" language with NLP
+![Churn Rate by Total KM Driven](./Images/Accuracy4.png)
 
 
 
